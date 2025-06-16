@@ -1,0 +1,12 @@
+packages:
+  - apps/*
+  - shared/*
+
+onlyBuiltDependencies:
+  - '@nestjs/core'
+  - '@scarf/scarf'
+  - '@swc/core'
+  - '@tailwindcss/oxide'
+  - argon2
+  - bcrypt
+  - esbuild
